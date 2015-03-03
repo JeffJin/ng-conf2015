@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example #2</title>
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../../bower_components/bootstrap-css/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div ng-app="APP" class="container">
+  <a href="../../index.html">Home</a> > Example 02
+    <hr />
+    <h2>Compile</h2>
+    <!-- <mydir></mydir>
+    <mydir></mydir>
+    <mydir></mydir> -->
+
+    <mydir name="parent">
+      <mydir name="child">
+        <mydir name="grandchild"></mydir>
+      </mydir>
+    </mydir>
+
+    <mytransclude name="parent-transclude">
+      <mytransclude name="child-transclude">
+        <mytransclude name="grandchild-transclude"></mytransclude>
+      </mytransclude>
+    </mytransclude>
+
+
+<div class="row">
+<div class="col-xs-12">
+  <pre>
+angular.module('APP',[])
+.directive('mydir', function(){
+  return {
+    scope: {},
+    restrict: 'E',
+    compile: compileFn
+  };
+})
+.directive('mytransclude', function(){
+  return {
+    scope: {},
+    restrict: 'E',
+    transclude: true,
+    template: '&lt;div ng-transclude>&lt;/div>',
+    compile: compileFn
+  };
+});
+
+var compileFn = function(templateElement, templateAttributes) {
+  /* compile phase */
+  console.log('compile', templateAttributes.$$element.attr('name'))
+  return {
+    pre: function preLink(scope, elm, attrs, ctrl) {
+      /* preLink phase */
+      console.log('preLink', attrs.name)
+    },
+    post: function postLink(scope, elm, attrs, ctrl){
+      /* postLink phase */
+      console.log('postLink', attrs.name)
+    }
+  }
+}
+
+</pre>
+</div>
+
+</div>
+
+
+  </div>
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

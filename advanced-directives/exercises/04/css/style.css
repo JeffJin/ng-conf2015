@@ -1,0 +1,16 @@
+body {
+  margin-top: 25px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+span {color: green;}
+
+.onSale:before {
+  content:url('../../sale.gif');;
+  position: absolute;
+  top:0;
+  right:0;
+}

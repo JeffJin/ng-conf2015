@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise #3</title>
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../../bower_components/bootstrap-css/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div ng-app="APP" class="container">
+    <a href="../../index.html">Home</a> > Exercise 03
+    <hr />
+    <h2>Exercise 03 <small>/exercises/03/app/catalog/rating-directive.js</small></h2>
+    <div class="pull-right"><a class="btn btn-xs btn-default" href="solution.html">Solution</a></div>
+    <hr />
+    <ol>
+      <li>Implement a star rating directive for each item using <code>scope.rating</code></li>
+      <li>Use tranclude: 'element' and the transclude argument in the linking function.</li>
+    </ol>
+    <hr />
+    <catalog></catalog>
+  </div>
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/catalog/catalog-service.js"></script>
+  <script src="app/catalog/catalog-directive.js"></script>
+  <script src="app/catalog/catalog-item-directive.js"></script>
+  <script src="app/catalog/catalog-image-directive.js"></script>
+  <script src="app/catalog/rating-directive.js"></script>
+</body>
+</html>

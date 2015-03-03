@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise #4</title>
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../../bower_components/bootstrap-css/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div ng-app="APP" class="container">
+    <a href="../../index.html">Home</a> > <a href="index.html">Exercise 04</a> > Solution
+    <hr />
+    <h2>Exercise 04 <small>SOLUTION</small></h2>
+    <hr />
+    <button class="btn btn-xs btn-success" onclick="getWatchers(document.getElementById('catalog'))">Watchers</button>
+    <catalog id="catalog"></catalog>
+  </div>
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <script src="solution/app.js"></script>
+  <script src="solution/catalog-service.js"></script>
+  <script src="solution/catalog-directive.js"></script>
+  <script src="solution/catalog-item-directive.js"></script>
+  <script src="solution/catalog-image-directive.js"></script>
+  <script src="solution/rating-directive.js"></script>
+  <script src="solution/getWatchers.js"></script>
+</body>
+</html>

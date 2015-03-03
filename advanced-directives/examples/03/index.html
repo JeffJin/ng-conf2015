@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example #3</title>
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../../bower_components/bootstrap-css/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div ng-app="APP" class="container">
+    <a href="../../index.html">Home</a> > Example 03
+    <hr />
+    <h2>Cats</h2>
+    <cat name="Garfield" housebroken></cat>
+    <cat name="Heathcliff" housebroken declawed></cat>
+    <cat name="Sylvester"></cat>
+
+
+<div class="row">
+<div class="col-xs-12">
+  <pre>
+angular.module('APP',[])
+.directive('featureList', function(){
+  'use strict';
+  return {
+    scope: {"featureList": "="},
+    restrict: 'A',
+    transclude: 'element',
+    link: function(scope, elm, attrs, ctrl, transclude){
+      var current = elm;
+      var cloneScope;
+      scope.$watch('featureList', function(newVal){
+        newVal.forEach(function(f, i){
+          cloneScope = scope.$new();
+          cloneScope.feature = f
+          transclude(cloneScope, function(clone){
+            current.after(clone);
+            current = clone;
+          });
+        })
+    })
+  }
+ }
+});
+</pre>
+</div>
+
+  </div>
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise #1</title>
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../../bower_components/bootstrap-css/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div ng-app="APP" class="container">
+    <a href="../../index.html">Home</a> > Exercise 01
+    <hr />
+    <h2>Exercise 01 <small>/exercises/01/app/catalog/catalog-directive.js</small></h2>
+    <div class="pull-right"><a class="btn btn-xs btn-default" href="solution.html">Solution</a></div>
+    <hr />
+    <ol>
+    <li>Move catalogController into the catalog directive</li>
+    <li>Implement a 25% discount on any items with a calcPrice over $100 in our catalog-directive controller.</li>
+    <li><i>Bonus: set the on sale items' onSale property to true, we'll use this later</i></li>
+    </ol>
+    <hr />
+    <catalog></catalog>
+  </div>
+  <script src="../../bower_components/angular/angular.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/catalog/catalog-service.js"></script>
+  <script src="app/catalog/catalog-directive.js"></script>
+  <script src="app/catalog/catalog-item-directive.js"></script>
+</body>
+</html>
