@@ -1,8 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="227442fc-6b09-40e8-a11c-926282d6d8d0" name="Default" comment="updated index from anmation workshop&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-formly" />
+    <list default="true" id="227442fc-6b09-40e8-a11c-926282d6d8d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/other/ERRORS_AND_WARNINGS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/formly-templates/angular-formly-templates-bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/formly-templates/angular-formly-templates-vanilla.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/components/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/bootstrapHtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/dev.excluded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/components/data/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-custom-validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-custom-validation.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/directives/formly-event-navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-field.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-field.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-focus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-form.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/directives/formly-jsbin-example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/directives/formly-jsbin-example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/dist/formly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/dist/formly.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/dist/formly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyApiCheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyApiCheck.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyConfig.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyErrorAndWarningsUrlPrefix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/formlyHtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/formlyJs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/run/formlyNgModelAttrsManipulator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyUsability.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/formlyUtil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/formlyUtil.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyValidationMessages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyVersion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/formlyWarn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/index.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/formlyDemo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/constants/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/services/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/filters/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/angular-fix/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/run/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/index.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/karma.conf.ci.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/lodash-mixins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/loaders/ng-annotate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/constants/onDev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/registerModule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/services/stateUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/filters/trust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/utilities.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/services/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/other/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/webpack.config.minify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/webpack.config.minify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/components/wrapper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ng-conf2015.iws" />
@@ -40,7 +145,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09259259" vertical-offset="0" max-vertical-offset="486">
+            <state vertical-scroll-proportion="0.08806262" vertical-offset="0" max-vertical-offset="511">
               <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
@@ -93,6 +198,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,30 +231,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-conf2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-conf2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-formly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ng-conf2015-original" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,10 +250,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -167,10 +265,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -186,6 +280,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -207,32 +307,38 @@
       <option name="project" value="LOCAL" />
       <updated>1425426702473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="setup">
+      <created>1425427547503</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1425427547503</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -251,7 +357,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="updated index from anmation workshop&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated index from anmation workshop&#10;" />
+    <MESSAGE value="setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -268,7 +375,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09259259" vertical-offset="0" max-vertical-offset="486">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08806262" vertical-offset="0" max-vertical-offset="511">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
