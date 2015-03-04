@@ -20,6 +20,6 @@ var getWatchers = function(root) {
       return [];
     }
   }
-console.log(getElemWatchers(root))
+  console.log(getElemWatchers(root));
   return getElemWatchers(root);
 }

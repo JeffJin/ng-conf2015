@@ -12,7 +12,7 @@ angular.module('APP',[])
         $scope.cat.features.push(f);
       }
 
-    }],
+    }]
   };
 })
 .directive('housebroken', function(){

@@ -7,7 +7,7 @@ angular.module('APP')
     restrict: 'A',
     replace: true,
     compile: function compile(templateElement, templateAttributes) {
-          templateElement.append('<img ng-src="{{item.img}}" />')
+          templateElement.append('<img ng-src="{{::item.img}}" />')
           return {
             pre: function preLink(scope, elm, attrs, ctrl) {
               elm.find('img').bind('error', function(){

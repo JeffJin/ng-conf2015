@@ -2,113 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227442fc-6b09-40e8-a11c-926282d6d8d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/other/ERRORS_AND_WARNINGS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/formly-templates/angular-formly-templates-bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/formly-templates/angular-formly-templates-vanilla.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/components/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/bootstrapHtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/dev.excluded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/components/data/examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-custom-validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-custom-validation.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/directives/formly-event-navigate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-field.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-field.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-focus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/formly-form.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/directives/formly-jsbin-example.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/directives/formly-jsbin-example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/dist/formly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/dist/formly.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/dist/formly.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyApiCheck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyApiCheck.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyConfig.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyErrorAndWarningsUrlPrefix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/formlyHtml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/formlyJs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/run/formlyNgModelAttrsManipulator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyUsability.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/formlyUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/formlyUtil.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyValidationMessages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/formlyVersion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/formlyWarn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/res/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/index.common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/formlyDemo/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/constants/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/services/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/default/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/filters/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/angular-fix/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/directives/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/providers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/run/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/services/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/index.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/karma.conf.ci.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/lodash-mixins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/loaders/ng-annotate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/constants/onDev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/registerModule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/services/stateUtils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/states/root/children/examples/children/category/children/example/components/filters/trust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/utilities.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/app/shared/ngCommon/services/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/src/other/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/webpack.config.minify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/demo/webpack.config.minify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular-form/local-examples/components/wrapper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-directives/examples/03/app.js" afterPath="$PROJECT_DIR$/advanced-directives/examples/03/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.tpl.html" afterPath="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-image-directive.js" afterPath="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-image-directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-item.tpl.html" afterPath="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-item.tpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-directives/examples/04/getWatchers.js" afterPath="$PROJECT_DIR$/advanced-directives/examples/04/getWatchers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-animation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/angular-animation/.idea/workspace.xml" />
     </list>
     <ignored path="ng-conf2015.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,22 +32,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="catalog-directive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog-directive.tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog-image-directive.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-image-directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2631579" vertical-offset="0" max-vertical-offset="513">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog-directive.tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/catalog-directive.tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="catalog-item.tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/catalog-item.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08806262" vertical-offset="0" max-vertical-offset="511">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rating-directive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/rating-directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getWatchers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/getWatchers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog-directive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/catalog-directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog-item.tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-item.tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +149,11 @@
         <option value="$PROJECT_DIR$/protractor/conf.js" />
         <option value="$PROJECT_DIR$/protractor/multi-spec.js" />
         <option value="$PROJECT_DIR$/angularjs-animation-workshop/index.html" />
+        <option value="$PROJECT_DIR$/advanced-directives/examples/03/app.js" />
+        <option value="$PROJECT_DIR$/advanced-directives/examples/04/getWatchers.js" />
+        <option value="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-item.tpl.html" />
+        <option value="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.tpl.html" />
+        <option value="$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-image-directive.js" />
       </list>
     </option>
   </component>
@@ -198,7 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,16 +215,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="protractor" />
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-conf2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ng-conf2015-original" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -321,11 +434,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,8 +504,220 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08806262" vertical-offset="0" max-vertical-offset="511">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/01/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/01/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/02/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/03/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="960">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/03/cat.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/04/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/04/getWatchers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/04/stopwatch.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="465">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/04/bindonce.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/examples/04/bindonce.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="585">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-item.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/catalog-item.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/rating-directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/getWatchers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/catalog-directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/solution/catalog-directive.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-directive.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-directives/exercises/04/app/catalog/catalog-image-directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2631579" vertical-offset="0" max-vertical-offset="513">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding />
         </state>
       </provider>
