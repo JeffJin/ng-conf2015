@@ -21,6 +21,14 @@ angular.module('App')
         alert('There are ' + getWatchers(document.getElementById(id)).length + ' watchers')
       }
 
+      $scope.updateInvoiceItems = function(items){
+        //items.forEach(function(item, i){
+        //  item.title = item.title + ' updated';
+        //});
+        items.push({title: 'new title 1', price: 1000, qty: 32});
+        items.push({title: 'new title 2', price: 100, qty: 2});
+      }
+
     }],
     controllerAs: 'invoice'
   };

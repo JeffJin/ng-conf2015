@@ -1,39 +1,48 @@
 /*
-In the compile phase of our catalog-image-directive update the template by appending "<img ng-src={ { item.img } } />" to the templateElement.
+ In the compile phase of our catalog-image-directive update the template by appending "<img ng-src={ { item.img } } />" to the templateElement.
 
-In the preLink stage of our catalog-image-directive use our controllers fallbackImage method to replace any missing images .
+ In the preLink stage of our catalog-image-directive use our controllers fallbackImage method to replace any missing images .
 
-In the postLink stage of our catalog-image-directive add a class of 'onSale' to the 'elm' of any items that are in fact on sale.
-Hint: scope.item will change by the time we can detect this
+ In the postLink stage of our catalog-image-directive add a class of 'onSale' to the 'elm' of any items that are in fact on sale.
+ Hint: scope.item will change by the time we can detect this
  */
 
 angular.module('APP')
-.directive('catalogImage', function(){
-  'use strict';
-  return {
-    scope: {item: '='},
-    require: '^catalog',
-    restrict: 'A',
-    replace: true,
-    compile: function compile(templateElement, templateAttributes) {
-          /**
-           * compile phase
-           */
-          return {
-            pre: function preLink(scope, elm, attrs, ctrl) {
-              /*
-               * preLink phase
-               */
-              elm.find('img').bind('error', function(){
-                  angular.element(this).attr('src', '???');
-              });
-            },
-            post: function postLink(scope, elm){
-              /*
-               * postLink phase
-               */
-            }
+  .directive('catalogImage', function(){
+    'use strict';
+    return {
+      scope: {item: '='},
+      require: '^catalog',
+      restrict: 'A',
+      replace: true,
+      compile: function compile(templateElement, templateAttributes) {
+        /**
+         * compile phase
+         * this phase is only concerned with template
+         */
+        templateElement.append('<img ng-src="{{item.img}}" />')
+        return {
+          pre: function preLink(scope, elm, attrs, controller) {
+            /*
+             * preLink phase
+             */
+            //TODO fallback image method
+            elm.find('img').bind('error', function(){
+              angular.element(this).attr('src', controller.fallbackImage());
+            });
+          },
+          post: function postLink(scope, elm){
+            /*
+             * postLink phase
+             * ng-class is better in this case
+             */
+            //scope.$watch('item', function(n ,o){
+            //  if(n.onSale) {
+            //    elm.addClass('onSale')
+            //  }
+            //})
           }
+        }
+      }
     }
-  }
-})
+  })

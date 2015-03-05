@@ -11,13 +11,15 @@ angular.module('APP')
       }
 
       this.calcPrice = function(item){
-        if (item.cost*2 > 100){
-          item.onSale = true;
-          return (item.cost*2)*0.75
+        var tempCost = item.cost*2 //if this is over 100 reduce by 25%
+        if(tempCost > 100){
+          tempCost = tempCost * 0.75;
+          item.onSale = true
         }
-        else {
-          return item.cost*2
+        else{
+          item.onSale = false;
         }
+        return tempCost;
       }
     }],
     restrict: 'E',

@@ -10,7 +10,7 @@
 
   <body ng-controller="MainCtrl">
 
-    <img class="logo" src="images/superlogo.png" alt="logo">
+    <img id="logo" class="logo" src="images/superlogo.png" alt="logo">
 
     <img bg class="fullBg bg-animation" ng-if="isCurrentPage('home')" src="images/bg03.jpg">
     <img bg class="fullBg bg-animation" ng-if="isCurrentPage('about')" src="images/bg04.jpg">
@@ -18,11 +18,6 @@
 
     <div class="panel panel-animation" ng-hide="isInTransit">
       <div>
-        <!--<h1 class="blue">{{page.label}}</h1>-->
-
-        <!--<h3>{{page.sublabel}}</h3>-->
-
-        <!--<p>{{page.content}}</p>-->
         <div style="color:#22c1e6;font-size: larger">#abc</div>
         <div style="color:#22c1e6;font-size: larger">#abcd</div>
         <div style="color:#22c1e6;font-size: larger">#abcde</div>
@@ -39,9 +34,9 @@
     </div>
 
     <ul class="nav nav-pills">
-      <li ng-class="{'active':isCurrentPage('home')}"><a ng-click="setCurrentPage('home')">HOME</a></li>
-      <li ng-class="{'active':isCurrentPage('about')}"><a ng-click="setCurrentPage('about')">ABOUT</a></li>
-      <li ng-class="{'active':isCurrentPage('contact')}"><a ng-click="setCurrentPage('contact')">CONTACT</a></li>
+      <li class="home" ng-class="{'active':isCurrentPage('home')}"><a ng-click="setCurrentPage('home')">HOME</a></li>
+      <li class="about" ng-class="{'active':isCurrentPage('about')}"><a ng-click="setCurrentPage('about')">ABOUT</a></li>
+      <li  class="contact" ng-class="{'active':isCurrentPage('contact')}"><a ng-click="setCurrentPage('contact')">CONTACT</a></li>
     </ul>
 
     <script src="libs/jquery.min.js"></script>

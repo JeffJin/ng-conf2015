@@ -17,6 +17,7 @@
 </table>
 
 <h3>w/ bind once <button class="btn btn-xs btn-success" ng-click="alertWatchers('inv02')">Watchers</button></h3>
+<button class="btn btn-xs btn-success" ng-click="updateInvoiceItems(invoice.invoiceItems)">Update Invoice Items</button>
 <table class="table table-hover" id="inv02">
   <tr ng-repeat="item in invoice.invoiceItems">
     <td>

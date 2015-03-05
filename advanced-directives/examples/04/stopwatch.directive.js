@@ -10,9 +10,9 @@ angular.module('App')
         if(n!==o)  {
           scope.updated++;
         }
-      })
+      });
       scope.stop = function(){
-        myWatch();
+        myWatch();//TODO stoppin watchers are important
       }
     }
   };
