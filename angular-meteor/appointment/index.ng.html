@@ -1,0 +1,9 @@
+<div ng-controller="AppointmentListCtrl">
+  <ul>
+    <li ng-repeat="appt in appointments">
+      {{appt.name}}
+      <p>{{appt.description}}</p>
+    </li>
+  </ul>
+  <p>Total number of appointments: {{appointments.length}}</p>
+</div>
