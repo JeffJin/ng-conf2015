@@ -105,5 +105,53 @@ angular.module('website', ['ngAnimate'])
       }
     };
   })
+  .animation('.panel-special-animation', function() {
+    return {
+      enter : function(element, done) {
+        console.log('.panel-special-animation', 'enter');
+        TweenMax.fromTo(element, 1,
+          {opacity: 0, height: 0},
+          {opacity: 1, height: element.height(), onComplete: done}
+        );
+
+        return function(cancelled) {
+          /* this (optional) function is called when the animation is complete
+           or when the animation has been cancelled (which is when
+           another animation is started on the same element while the
+           current animation is still in progress). */
+          if(cancelled) {
+            jQuery(element).stop();
+          }
+        };
+      },
+
+      leave : function(element, done) {
+        console.log('.panel-special-animation', 'leave');
+        TweenMax.fromTo(element, 1,
+          {opacity: 1, height: element.height()},
+          {opacity: 0, height: 0, onComplete: done}
+        );
+
+        return function(cancelled) {
+          /* this (optional) function is called when the animation is complete
+           or when the animation has been cancelled (which is when
+           another animation is started on the same element while the
+           current animation is still in progress). */
+          if(cancelled) {
+            jQuery(element).stop();
+          }
+        }
+      },
+      move : function(element, done) { done(); },
+
+      beforeAddClass : function(element, className, done) { done(); },
+      addClass : function(element, className, done) { done(); },
+
+      beforeRemoveClass : function(element, className, done) { done(); },
+      removeClass : function(element, className, done) { done(); },
+
+      allowCancel : function(element, event, className) {}
+    };
+  });
 ;
 

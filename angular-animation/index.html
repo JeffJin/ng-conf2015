@@ -16,8 +16,9 @@
     <img bg class="fullBg bg-animation" ng-if="isCurrentPage('about')" src="images/bg04.jpg">
     <img bg class="fullBg bg-animation" ng-if="isCurrentPage('contact')" src="images/bg05.jpg">
 
-    <div class="panel panel-animation" ng-hide="isInTransit">
-      <div>
+    <div class="panel panel-animation" ng-hide="isInTransit"  ng-init="on=true">
+      <button ng-click="on=!on">Toggle On/Off</button>
+      <div class="panel-special-animation" ng-if="on">
         <div style="color:#22c1e6;font-size: larger">#abc</div>
         <div style="color:#22c1e6;font-size: larger">#abcd</div>
         <div style="color:#22c1e6;font-size: larger">#abcde</div>

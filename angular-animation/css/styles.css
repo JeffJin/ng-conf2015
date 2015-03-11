@@ -55,3 +55,28 @@ body {
 .blue {
     color: #0088cc;
 }
+
+/* starting animations */
+/*.panel-special-animation.ng-enter {*/
+  /*-webkit-transition:1s linear all;*/
+  /*transition:1s linear all;*/
+
+  /*background:red;*/
+  /*opacity: 0;*/
+/*}*/
+
+/* destination animations */
+/*.panel-special-animation.ng-enter.ng-enter-active {*/
+  /*background:blue;*/
+  /*opacity: 1;*/
+/*}*/
+/*.panel-special-animation.ng-leave {*/
+  /*-webkit-transition:1s linear all;*/
+  /*transition:1s linear all;*/
+  /*opacity: 1;*/
+/*}*/
+
+/* destination animations */
+/*.panel-special-animation.ng-leave.ng-leave-active {*/
+  /*opacity: 0;*/
+/*}*/
