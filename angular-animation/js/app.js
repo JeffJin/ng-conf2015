@@ -23,6 +23,15 @@ angular.module('website', ['ngAnimate'])
       return $scope.currentPage === page;
     };
 
+    $scope.toggleItems= function(){
+      if($scope.items && $scope.items.length){
+        $scope.items = [];
+      }
+      else{
+        $scope.items = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+      }
+    };
+
     $scope.$on('bgTransitionComplete', function () {
       $scope.isInTransit = false;
     });
@@ -95,7 +104,7 @@ angular.module('website', ['ngAnimate'])
         if (className == 'ng-hide') {
           element.removeClass('ng-hide');
           TweenMax.fromTo(element, 0.5,
-            {opacity: 0, height: 0, width: 0, x:0, y:269},
+            {opacity: 0, height: 0, width: element.width(), x:0, y:269},
             {opacity: 0.8, height: element.height(), width:element.width(), x:0, y:0, onComplete: done}
           );
         }
@@ -105,53 +114,54 @@ angular.module('website', ['ngAnimate'])
       }
     };
   })
-  .animation('.panel-special-animation', function() {
-    return {
-      enter : function(element, done) {
-        console.log('.panel-special-animation', 'enter');
-        TweenMax.fromTo(element, 1,
-          {opacity: 0, height: 0},
-          {opacity: 1, height: element.height(), onComplete: done}
-        );
-
-        return function(cancelled) {
-          /* this (optional) function is called when the animation is complete
-           or when the animation has been cancelled (which is when
-           another animation is started on the same element while the
-           current animation is still in progress). */
-          if(cancelled) {
-            jQuery(element).stop();
-          }
-        };
-      },
-
-      leave : function(element, done) {
-        console.log('.panel-special-animation', 'leave');
-        TweenMax.fromTo(element, 1,
-          {opacity: 1, height: element.height()},
-          {opacity: 0, height: 0, onComplete: done}
-        );
-
-        return function(cancelled) {
-          /* this (optional) function is called when the animation is complete
-           or when the animation has been cancelled (which is when
-           another animation is started on the same element while the
-           current animation is still in progress). */
-          if(cancelled) {
-            jQuery(element).stop();
-          }
-        }
-      },
-      move : function(element, done) { done(); },
-
-      beforeAddClass : function(element, className, done) { done(); },
-      addClass : function(element, className, done) { done(); },
-
-      beforeRemoveClass : function(element, className, done) { done(); },
-      removeClass : function(element, className, done) { done(); },
-
-      allowCancel : function(element, event, className) {}
-    };
-  });
+  //.animation('.panel-special-animation', function() {
+  //  return {
+  //    enter : function(element, done) {
+  //      console.log('.panel-special-animation', 'enter');
+  //      TweenMax.fromTo(element, 1,
+  //        {opacity: 0, height: 0},
+  //        {opacity: 1, height: element.height(), onComplete: done}
+  //      );
+  //
+  //      return function(cancelled) {
+  //        /* this (optional) function is called when the animation is complete
+  //         or when the animation has been cancelled (which is when
+  //         another animation is started on the same element while the
+  //         current animation is still in progress). */
+  //        if(cancelled) {
+  //          jQuery(element).stop();
+  //        }
+  //      };
+  //    },
+  //
+  //    leave : function(element, done) {
+  //      console.log('.panel-special-animation', 'leave');
+  //      TweenMax.fromTo(element, 1,
+  //        {opacity: 1, height: element.height()},
+  //        {opacity: 0, height: 0, onComplete: done}
+  //      );
+  //
+  //      return function(cancelled) {
+  //        /* this (optional) function is called when the animation is complete
+  //         or when the animation has been cancelled (which is when
+  //         another animation is started on the same element while the
+  //         current animation is still in progress). */
+  //        if(cancelled) {
+  //          jQuery(element).stop();
+  //        }
+  //      }
+  //    },
+  //    move : function(element, done) { done(); },
+  //
+  //    beforeAddClass : function(element, className, done) { done(); },
+  //    addClass : function(element, className, done) { done(); },
+  //
+  //    beforeRemoveClass : function(element, className, done) { done(); },
+  //    removeClass : function(element, className, done) { done(); },
+  //
+  //    allowCancel : function(element, event, className) {}
+  //  };
+  //})
 ;
+
 

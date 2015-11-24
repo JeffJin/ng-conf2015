@@ -12,25 +12,14 @@
 
     <img id="logo" class="logo" src="images/superlogo.png" alt="logo">
 
-    <img bg class="fullBg bg-animation" ng-if="isCurrentPage('home')" src="images/bg03.jpg">
-    <img bg class="fullBg bg-animation" ng-if="isCurrentPage('about')" src="images/bg04.jpg">
-    <img bg class="fullBg bg-animation" ng-if="isCurrentPage('contact')" src="images/bg05.jpg">
+    <img bg class="fullBg" ng-class="{'bg-animation': isCurrentPage('home')}" ng-if="isCurrentPage('home')" src="images/bg03.jpg">
+    <img bg class="fullBg" ng-class="{'bg-animation': isCurrentPage('about')}" ng-if="isCurrentPage('about')" src="images/bg04.jpg">
+    <img bg class="fullB" ng-class="{'bg-animation': isCurrentPage('contact')}" ng-if="isCurrentPage('contact')" src="images/bg05.jpg">
 
     <div class="panel panel-animation" ng-hide="isInTransit"  ng-init="on=true">
-      <button ng-click="on=!on">Toggle On/Off</button>
-      <div class="panel-special-animation" ng-if="on">
-        <div style="color:#22c1e6;font-size: larger">#abc</div>
-        <div style="color:#22c1e6;font-size: larger">#abcd</div>
-        <div style="color:#22c1e6;font-size: larger">#abcde</div>
-        <div style="color:#22c1e6;font-size: larger">#abcfd</div>
-        <div style="color:#22c1e6;font-size: larger">#abcee</div>
-        <div style="color:#22c1e6;font-size: larger">#abeee</div>
-        <div style="color:#22c1e6;font-size: larger">#abree</div>
-        <div style="color:#22c1e6;font-size: larger">#abtee</div>
-        <div style="color:#22c1e6;font-size: larger">#abuee</div>
-        <div style="color:#22c1e6;font-size: larger">#abuee</div>
-        <div style="color:#22c1e6;font-size: larger">#abuee</div>
-        <div style="color:#22c1e6;font-size: larger">#abuee</div>
+      <button ng-click="toggleItems()">Toggle On/Off</button>
+      <div class="panel-special-animation">
+        <div class="item" ng-repeat="item in items">The item index is #{{item}}</div>
       </div>
     </div>
 
@@ -44,7 +33,7 @@
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="bower_components/angular-material/angular-material.js"></script>
-    <script src="libs/TweenMax.min.js"></script>
+    <script src="bower_components/greensock/src/uncompressed/TweenMax.js"></script>
 
     <script src="js/app.js"></script>
 

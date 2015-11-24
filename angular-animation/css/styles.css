@@ -55,6 +55,38 @@ body {
 .blue {
     color: #0088cc;
 }
+.item{
+  color:#22c1e6;
+  font-size: 20px;
+  -webkit-transition: 2s linear all;
+  transition: 2s linear all;
+}
+.item.ng-enter {
+  opacity: 0;
+}
+.item.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+.item.ng-leave {
+ opacity: 1;
+}
+.item.ng-leave.ng-leave-active {
+   opacity: 0;
+}
+.item.ng-enter-stagger{
+  -webkit-transition-delay:200ms;
+  transition-delay:200ms;
+  /* safeguard to prevent accidental CSS inheritance */
+  -webkit-transition-duration:0ms;
+  transition-duration:0ms;
+}
+.item.ng-leave-stagger{
+  -webkit-transition-delay:200ms;
+  transition-delay:200ms;
+  /* safeguard to prevent accidental CSS inheritance */
+  -webkit-transition-duration:0ms;
+  transition-duration:0ms;
+}
 
 /* starting animations */
 /*.panel-special-animation.ng-enter {*/
@@ -65,7 +97,7 @@ body {
   /*opacity: 0;*/
 /*}*/
 
-/* destination animations */
+ /*!*destination animations*!*/
 /*.panel-special-animation.ng-enter.ng-enter-active {*/
   /*background:blue;*/
   /*opacity: 1;*/
@@ -76,7 +108,7 @@ body {
   /*opacity: 1;*/
 /*}*/
 
-/* destination animations */
+ /*!*destination animations*!*/
 /*.panel-special-animation.ng-leave.ng-leave-active {*/
   /*opacity: 0;*/
 /*}*/

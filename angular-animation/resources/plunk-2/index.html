@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="website">
+
+  <head>
+    <link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
+    <script data-require="angular.js@*" data-semver="1.4.0-beta.5" src="https://code.angularjs.org/1.4.0-beta.5/angular.js"></script>
+    <script data-require="angular-animate@*" data-semver="1.4.0-beta.5" src="https://code.angularjs.org/1.4.0-beta.5/angular-animate.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    
+    <!-- CSS Transition Example
+    <link rel="stylesheet" href="transitions.css" />
+    --> 
+    <!-- CSS Keyframe Animation Example
+    <link rel="stylesheet" href="animations.css" />
+    --> 
+    <!-- JS Animation Example -->
+    <script src="animations.js"></script>
+
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <div class="slider">
+      <div ng-repeat="slide in slides" ng-hide="!isCurrentSlideIndex($index)" class="slide slide-animation">
+        <img class="nonDraggableImage" ng-src="{{slide.bg}}" />
+        <img class="nonDraggableImage avatar" ng-src="{{slide.avatar}}" />
+        <h1 class="title">
+          <span>{{slide.title}}</span>
+        </h1>
+        <h3 class="subtitle">
+          <span>{{slide.subtitle}}</span>
+        </h3>
+      </div>
+    </div>
+    <div class="nav">
+      <div ng-repeat="slide in slides" ng-class="{'active':isCurrentSlideIndex($index)}" ng-click="setCurrentSlideIndex($index)">
+        <h3>{{slide.title}}</h3>
+      </div>
+    </div>
+  </body>
+</html>
