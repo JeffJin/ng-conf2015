@@ -1,46 +1,165 @@
 <!DOCTYPE html>
 <html ng-app="website">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Nearby Games</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nearby Games</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nearby-games.css">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/nearby-games.css">
 
-    <!--[if lt IE 9]>
-    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-    <![endif]-->
-  </head>
+  <!--[if lt IE 9]>
+  <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+  <![endif]-->
+</head>
 
-  <body>
-    <nav>
-      <div class="container nav">
-        <ul class="nav-list">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">GAMES</a></li>
-          <li><a href="#">STATS</a></li>
-          <li><a href="#">ABOUT</a></li>
-        </ul>
-        <ul class="social-list">
-          <li><a href="#"><img src="images/youtube.png" alt="YouTube" /></a></li>
-          <li><a href="#"><img src="images/twitter.png" alt="Twitter" /></a></li>
-          <li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li>
-        </ul>
+<body>
+<nav>
+  <div class="container nav">
+    <ul class="nav-list">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">GAMES</a></li>
+      <li><a href="#">STATS</a></li>
+      <li><a href="#">ABOUT</a></li>
+    </ul>
+    <ul class="social-list">
+      <li><a href="#"><img src="images/youtube.png" alt="YouTube" /></a></li>
+      <li><a href="#"><img src="images/twitter.png" alt="Twitter" /></a></li>
+      <li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li>
+    </ul>
+  </div>
+</nav>
+<header class="container">
+  <h1>Nearby Games</h1>
+  <h3>Upcoming games near your current location</h3>
+</header>
+<section class="featured">
+  <ul class="game-list container">
+    <li>
+      <a href="#">
+        <img class="feature-icon" src="images/game1.png" alt="Game 1">
+        <h3 class="featured-header">La Liga Classical</h3>
+        <h4 class="featured-subheader">FC Barcelona vs Real Madrid</h4>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="feature-icon" src="images/game2.png" alt="Game 2">
+        <h3 class="featured-header">Copa America Final</h3>
+        <h4 class="featured-subheader">Brazil vs Argentina</h4>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <img class="feature-icon" src="images/game3.png" alt="Game 3">
+        <h3 class="featured-header">Super Cup Final</h3>
+        <h4 class="featured-subheader">Chelsea vs Man Ut.</h4>
+      </a>
+    </li>
+
+  </ul>
+</section>
+
+<section class="team-details" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <article>
+          <h3>FC BARCELONA</h3>
+          <p>Futbol Club Barcelona (Catalan pronunciation: [fubˈbɔɫ ˈkɫub bərsəˈɫonə] ( listen)), also known as Barcelona and familiarly as Barça,[note 1] is a professional football club, based in Barcelona, Catalonia, Spain.</p>
+        </article>
+        <img src="images/fcb.png">
       </div>
-    </nav>
-    <header class="container">
-      <hgroup>
-        <h1>Nearby Games</h1>
-        <h3>Upcoming games near your current location</h3>
-      </hgroup>
-    </header>
-    <section>
-
-    </section>
-    <div class="container main" >
+      <div class="col-md-6">
+        <article>
+          <h3>REAL MADRID</h3>
+          <p>Real Madrid Club de Fútbol (Spanish pronunciation: [reˈal maˈðɾið ˈkluβ ðe ˈfuðβol]; Royal Madrid Football Club), commonly known as Real Madrid, or simply as Real, is a professional football club based in Madrid, Spain.</p>
+        </article>
+        <img src="images/rm.png">
+      </div>
     </div>
+  </div>
+</section>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  </body>
+<section class="game-history">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Game History (FC Barcelona and Real Madrid)</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 past-game">
+        <article>
+          <h4>Jan 13, 2013</h4>
+          <h4>3:1</h4>
+          <p>Barcelona Won</p>
+        </article>
+        <img class="history-winner" src="images/fcb.png">
+      </div>
+      <div class="col-md-3 past-game">
+        <article>
+          <h4>June 22, 2014</h4>
+          <h4>5:1</h4>
+          <p>Real Madrid Won</p>
+        </article>
+        <img class="history-winner" src="images/rm.png">
+      </div>
+      <div class="col-md-3 past-game">
+        <article>
+          <h4>June 22, 2014</h4>
+          <h4>5:1</h4>
+          <p>Real Madrid Won</p>
+        </article>
+        <img class="history-winner" src="images/rm.png">
+      </div>
+      <div class="col-md-3 past-game">
+        <article>
+          <h4>June 22, 2014</h4>
+          <h4>5:1</h4>
+          <p>Real Madrid Won</p>
+        </article>
+        <img class="history-winner" src="images/rm.png">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>About myLeague</h3>
+        <dl class="footer-list">
+          <dt>What is myLeague?</dt>
+          <dd>Proudly serving comunities since 2014</dd>
+          <dt>Is it free?</dt>
+          <dd>No cost for non-profit organizations</dd>
+          <dt>Who is behind it?</dt>
+          <dd>Distributed by eWorkspace Solutions Inc.</dd>
+        </dl>
+      </div>
+      <div class="col-sm-4">
+        <h3>Contact US</h3>
+        <address>
+          176 District Ave, <br/>
+          Vaughan, Ontairo, L6A 0Y3<br>
+          (647)408-4448<br/><br/>
+          <a href="mailto:jeff@jeffjin.com">jeff@jeffjin.com</a>
+        </address>
+      </div>
+      <div class="col-sm-4">
+        <h3>Register for Updates</h3>
+        <form>
+          <input type="text" id="name" placeholder="Name"/>
+          <input type="email" id="email" placeholder="Email"/>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <span class="row copyright">&copy;copyright 2015 eWorkspace Solutions Inc.</span>
+  </div>
+</footer>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+</body>
 </html>
