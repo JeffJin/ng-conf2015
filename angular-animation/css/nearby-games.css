@@ -1,8 +1,44 @@
-.main{
+@import url(https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre);
 
+
+body{
+  letter-spacing: 0.2px;
+  font-family: "open-sans",sans-serif;
 }
 
-.nav{
-  border: 1px solid blue;
-  height: 20px;
+
+nav{
+  background-color: #3da2df;
+  height:44px;
+}
+
+.social-list, .nav-list{
+  list-style: none;
+  list-style-type: none;
+  margin-top:11px;
+}
+nav .container li{
+  display: inline;
+  margin-right: 20px;
+}
+
+.social-list{
+  padding-right: 3px;
+
+  float: right;
+}
+
+.nav-list{
+  padding-left: 3px;
+  float: left;
+}
+
+nav .nav-list a{
+  color: #ffffff;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Averia Gruesa Libre', cursive;
 }
