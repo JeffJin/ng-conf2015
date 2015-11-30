@@ -10,30 +10,40 @@ body{
 nav{
   background-color: #3da2df;
   height:44px;
+  font-family: 'Averia Gruesa Libre', cursive;
+}
+
+nav .container li{
+  /*display: inline;*/
+  float: left;
 }
 
 .social-list, .nav-list{
   list-style: none;
-  list-style-type: none;
-  margin-top:11px;
 }
-nav .container li{
-  display: inline;
+
+.social-list li{
+  margin-left: 20px;
+}
+
+.nav-list li{
   margin-right: 20px;
 }
 
 .social-list{
   padding-right: 3px;
-
   float: right;
+  padding-top:9px;
 }
 
 .nav-list{
   padding-left: 3px;
   float: left;
+  margin-right: 20px;
+  padding-top:11px;
 }
 
-nav .nav-list a{
+.nav-list li a{
   color: #ffffff;
 }
 
@@ -41,4 +51,41 @@ nav .nav-list a{
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Averia Gruesa Libre', cursive;
+}
+
+/******* HEADER *******/
+header h1, header h3{
+  font-weight: normal;
+  text-align: center;
+}
+
+header h1{
+  font-size: 44px;
+  margin-bottom: 0;
+}
+
+header h3{
+  font-size: 20px;
+  color:#3da2df;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/***************FEATURED SECTION**********/
+.featured .game-list{
+  list-style: none;
+}
+.featured .game-list li{
+  float: left;
+}
+.featured .game-list li a{
+  border: 3px solid #3da2df;
+  border-radius: 4px;
+}
+
+/***************TEAM DETAILS**************/
+.team-details h2{
+  font-weight: normal;
+  font-size: 30px;
+  color: #3da2df;
 }
