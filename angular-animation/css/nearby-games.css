@@ -13,8 +13,8 @@ nav{
   font-family: 'Averia Gruesa Libre', cursive;
 }
 
-nav .container li{
-  /*display: inline;*/
+.menu-icon{
+  margin-top: 7px;
   float: left;
 }
 
@@ -22,28 +22,28 @@ nav .container li{
   list-style: none;
 }
 
-.social-list li{
-  margin-left: 20px;
-}
-
-.nav-list li{
-  margin-right: 20px;
-}
-
 .social-list{
-  padding-right: 3px;
   float: right;
-  padding-top:9px;
+}
+.social-list img{
+  margin-top: 7px;
 }
 
 .nav-list{
-  padding-left: 3px;
-  float: left;
-  margin-right: 20px;
-  padding-top:11px;
+  /*display:none;*/
+  position: absolute;
+  top: 43px;
+  left: 13px;
+  background-color: #8a8a8a;
+  width: 50%;
+  padding: 10px;
+  opacity: 0.9;
 }
-
 .nav-list li a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -86,9 +86,8 @@ header h3{
   background-color: #90fdff;
 }
 .featured .game-list li{
-  float: left;
   border-radius: 14px;
-  height:200px;
+  margin-bottom: 2px;
 }
 .featured .game-list li a:hover{
   text-decoration: none;
@@ -96,16 +95,24 @@ header h3{
 }
 .featured .game-list li h2, .featured .game-list li h3{
   text-align: center;
-  line-height: 0.6;
+  line-height: 0.8;
 }
 
+.game-header{
+  height: 100px;
+}
+.game-header h2{
+  height: 37px;
+}
 .match-status{
   margin-top: 25px;
+  height: 100px;
 }
 .match-status .team-name:first-child{
   float:left;
   width: 30%;
   overflow: hidden;
+  word-break: break-all;
   text-align: center;
   margin: 26px 3px 0 3px;
   box-sizing: border-box;
@@ -114,17 +121,17 @@ header h3{
   float:right;
   width: 30%;
   overflow: hidden;
+  word-break: break-all;
   text-align: center;
   margin: 26px 3px 0 3px;
   box-sizing: border-box;
 }
-
 .match-status .score{
   float:left;
   border: 3px dotted yellowgreen;
   border-radius: 10px;
   text-align: center;
-  width:30%;
+  width:35%;
   height:80px;
   box-sizing: border-box;
 }
@@ -135,11 +142,115 @@ header h3{
   margin-top: -4px;
 }
 
+@media (min-width: 768px){
+  .menu-icon{
+    display: none;
+  }
 
+  .social-list li{
+    margin-left: 20px;
+  }
+
+  .nav-list li{
+    float: left;
+    display: block;
+    margin-right: 20px;
+  }
+
+  .social-list{
+    padding-right: 3px;
+    float: right;
+    padding-top:9px;
+  }
+
+  .nav-list{
+    display:block;
+    position: inherit;
+    float: left;
+    padding-left: 3px;
+    margin-right: 20px;
+    padding-top:11px;
+    width: inherit;
+    background-color: transparent;
+  }
+  .social-list img{
+    margin-top: -3px;
+  }
+  /******* HEADER *******/
+  header h1, header h3{
+
+  }
+
+  header h1{
+
+  }
+
+  header h3{
+
+  }
+
+  /***************FEATURED SECTION**********/
+  .featured .game-list li{
+    float: left;
+    border-radius: 18px;
+  }
+  .featured .game-list li a:hover{
+    text-decoration: none;
+    cursor: hand;
+  }
+  .featured .game-list li h2, .featured .game-list li h3{
+    text-align: center;
+    line-height: 0.8;
+  }
+  .game-header{
+    height: 100px;
+  }
+  .game-header h2{
+    height: 37px;
+  }
+  .match-status{
+    margin-top: 25px;
+    height: 100px;
+  }
+  .match-status .team-name:first-child{
+    float:left;
+    width: 30%;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: center;
+    margin: 26px 3px 0 3px;
+    box-sizing: border-box;
+  }
+  .match-status .team-name:last-child{
+    float:right;
+    width: 30%;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: center;
+    margin: 26px 3px 0 3px;
+    box-sizing: border-box;
+  }
+  .match-status .score{
+    float:left;
+    border: 3px dotted yellowgreen;
+    border-radius: 10px;
+    text-align: center;
+    width:34%;
+    height:80px;
+    box-sizing: border-box;
+  }
+  .match-status .score p{
+    padding-top: 14px;
+  }
+  .match-status .score h4{
+    margin-top: -4px;
+  }
 
   /***************TEAM DETAILS**************/
-.team-details h2{
-  font-weight: normal;
-  font-size: 30px;
-  color: #3da2df;
+  .team-details h2{
+    font-weight: normal;
+    font-size: 30px;
+    color: #3da2df;
+  }
+
 }

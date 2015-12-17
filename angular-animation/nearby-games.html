@@ -16,14 +16,22 @@
 <body>
 <nav>
   <div class="container">
-    <ul class="nav-list">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">GAMES</a></li>
-      <li><a href="#">STATS</a></li>
-      <li><a href="#">ABOUT</a></li>
-    </ul>
+    <div class="menu">
+      <a href="#">
+        <img class="menu-icon" src="images/menu-icon.png" alt="Click to expand menu" />
+      </a>
+      <ul class="nav-list">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">GAMES</a></li>
+        <li><a href="#">STATS</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
+    </div>
+
     <ul class="social-list">
-      <li><a href="#"><img src="images/ref.png" width="30" height="30" alt="Facebook" /></a></li>
+      <li>
+        <a href="#"><img src="images/referee.png" width="33" height="33" alt="Facebook" /></a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -33,11 +41,13 @@
 </header>
 <section class="featured">
   <ul class="game-list container">
-    <li class="col-sm-4">
+    <li class="col-sm-4 col-xs-12">
       <a href="#">
         <!--<img class="feature-icon" src="images/game1.png" alt="La Liga Classical">-->
-        <h2 class="featured-header">Barcelona, Spain</h2>
-        <h3>Spanish La Liga</h3>
+        <div class="game-header">
+          <h2 class="featured-header">Barcelona, Spain</h2>
+          <h3>Spanish La Liga</h3>
+        </div>
         <div class="match-status">
           <h4 class="team-name">FC Barcelona</h4>
           <div class="score">
@@ -48,29 +58,33 @@
         </div>
       </a>
     </li>
-    <li class="col-sm-4">
+    <li class="col-sm-4 col-xs-12">
       <a href="#">
         <!--<img class="feature-icon" src="images/game2.png" alt="Copa America Final">-->
-        <h2 class="featured-header">Rio, Brazil</h2>
-        <h3>Copa America</h3>
+        <div class="game-header">
+          <h2 class="featured-header">Rio, Brazil</h2>
+          <h3>Copa America</h3>
+        </div>
         <div class="match-status">
           <h4 class="team-name">Brazil</h4>
           <div class="score">
-            <p>First Half</p>
+            <p>1st Half</p>
             <h4>2 - 1</h4>
           </div>
           <h4 class="team-name">Argentina</h4>
         </div>
       </a>
-    <li class="col-sm-4">
+    <li class="col-sm-4 col-xs-12">
       <a href="#">
         <!--<img class="feature-icon" src="images/game3.png" alt="Super Cup Final">-->
-        <h2 class="featured-header">Manchester, England</h2>
-        <h3>English Premier League</h3>
+        <div class="game-header">
+          <h2 class="featured-header">Manchester, England</h2>
+          <h3>English Premier League</h3>
+        </div>
         <div class="match-status">
           <h4 class="team-name">Chelsea</h4>
           <div class="score">
-            <p>Second Half</p>
+            <p>2nd Half</p>
             <h4>2 - 1</h4>
           </div>
           <h4 class="team-name">Man Ut.</h4>
