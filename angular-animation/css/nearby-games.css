@@ -14,8 +14,14 @@ nav{
 }
 
 .menu-icon{
-  margin-top: 7px;
   float: left;
+  width: 43px;
+  height: 43px;
+}
+.menu-icon i{
+  display: block;
+  font-size: 48px;
+  margin-top: -10px;
 }
 
 .social-list, .nav-list{
@@ -33,11 +39,18 @@ nav{
   /*display:none;*/
   position: absolute;
   top: 43px;
-  left: 13px;
+  left: -100%;
   background-color: #8a8a8a;
-  width: 50%;
+  width: 80%;
+  height: 100%;
+  z-index: 1000;
   padding: 10px;
   opacity: 0.9;
+  transition: all 500ms;
+}
+.nav-list li{
+  margin-top: 20px;
+  height: 50px;
 }
 .nav-list li a{
   display: block;
@@ -152,9 +165,11 @@ header h3{
   }
 
   .nav-list li{
+    margin-top: 0px;
     float: left;
     display: block;
     margin-right: 20px;
+    height: inherit;
   }
 
   .social-list{
